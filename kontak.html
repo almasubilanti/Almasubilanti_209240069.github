@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kontak Kami</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Kontak Kami</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="produk.html">Keranjang</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+    <a href="produk.html" class="cart-icon">
+      <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" alt="Keranjang">
+      <span id="cart-count" class="cart-count"></span>
+    </a>
+  </header>
+
+  <main>
+    <h2>Formulir Kontak</h2>
+    <form id="kontak-form" onsubmit="kirimPesan(event)">
+      <label for="nama">Nama:</label><br>
+      <input type="text" id="nama" name="nama" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="pesan">Pesan:</label><br>
+      <textarea id="pesan" name="pesan" rows="5" required></textarea><br><br>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Toko Sederhana</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

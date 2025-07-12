@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beranda - Toko Sederhana</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Toko Sederhana</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="produk.html">Keranjang</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+    <a href="produk.html" class="cart-icon">
+      <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" alt="Keranjang">
+      <span id="cart-count" class="cart-count"></span>
+    </a>
+  </header>
+
+  <main>
+    <h2>Produk Kami</h2>
+    <section class="produk-list">
+      <article class="produk-item">
+        <img src="https://quickimagetools.com/uploads/image_68723e58313fe5.26170587.png" alt="Produk 1">
+        <h3>handbody scarlet</h3>
+        <p>Rp 100.000</p>
+        <button onclick="tambahKeKeranjang('Produk 1')">Tambah ke Keranjang</button>
+      </article>
+
+      <article class="produk-item">
+        <img src="https://quickimagetools.com/uploads/image_68723e8c3c29f9.73197547.jpg" alt="Produk 2">
+        <h3>eyeliner</h3>
+        <p>Rp 200.000</p>
+        <button onclick="tambahKeKeranjang('Produk 2')">Tambah ke Keranjang</button>
+      </article>
+
+      <article class="produk-item">
+        <img src="https://quickimagetools.com/uploads/image_68723eb06759b3.35283879.png" alt="Produk 3">
+        <h3>lipstik</h3>
+        <p>Rp 300.000</p>
+        <button onclick="tambahKeKeranjang('Produk 3')">Tambah ke Keranjang</button>
+      </article>
+
+      <article class="produk-item">
+        <img src="https://quickimagetools.com/uploads/image_68723edc433d36.63812482.jpg" alt="Produk 4">
+        <h3> eyeshadow</h3>
+        <p>Rp 400.000</p>
+        <button onclick="tambahKeKeranjang('Produk 4')">Tambah ke Keranjang</button>
+      </article>
+
+      <article class="produk-item">
+        <img src="https://quickimagetools.com/uploads/image_68723efbed3fd1.57265923.jpg" alt="Produk 5">
+        <h3>bedak</h3>
+        <p>Rp 500.000</p>
+        <button onclick="tambahKeKeranjang('Produk 5')">Tambah ke Keranjang</button>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Toko Sederhana</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
